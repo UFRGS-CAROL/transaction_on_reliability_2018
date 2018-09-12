@@ -25,12 +25,26 @@ Each file is organized as follows:
 
 
 
-BENCHMARK_AND_MACHINE_NAME: which could be cudaDarknet_carol-k402 for YOLO(Darknet) on K40, PyFasterRcnn_carol-k402 Faster RCNN on K40, cudaDarknet_carolx1 Darknet on Tegra X1, PyFasterRcnn_carol-tx Faster RCNN on Titan X or cudaDarknet_carol-tx Darknet on Titan X
+BENCHMARK_AND_MACHINE_NAME: which could be
+
+cudaDarknet_carol-k402 for YOLO(Darknet) on K40
+
+PyFasterRcnn_carol-k402 Faster RCNN on K40
+
+cudaDarknet_carolx1 Darknet on Tegra X1
+
+PyFasterRcnn_carol-tx Faster RCNN on Titan X
+
+cudaDarknet_carol-tx Darknet on Titan X
+
 log_name:\
 
 Each log output file which contains:
+
 -date and time of the test
+
 sdc_iteration
+
 -iteration of SDC, once not all executions produced SDC
 -
 it_errors: how many errors in this SDC
