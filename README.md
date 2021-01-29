@@ -3,9 +3,6 @@ README
 This file contains all data used on paper "Analyzing and Increasing the Reliability of
 Convolutional Neural Networks on GPUs"
 
-
-Please do not distribute data until the paper is published.
-
 Data is organized in the following files:
 
 
